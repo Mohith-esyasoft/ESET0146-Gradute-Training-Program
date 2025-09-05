@@ -31,3 +31,5 @@ exec sp_rename 'employees.name' , 'Emp_name','column'
 
 
 exec sp_rename 'employees' , 'Employee'
+
+

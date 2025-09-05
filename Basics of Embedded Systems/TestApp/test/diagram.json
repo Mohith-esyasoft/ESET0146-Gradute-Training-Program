@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "author": "John Newman",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": 18.6, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -99.6,
+      "left": 119,
+      "attrs": { "color": "white" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -87,
+      "left": 12.6,
+      "rotate": 90,
+      "attrs": { "color": "green", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "led1:A", "uno:4", "green", [ "h86.4", "v144" ] ],
+    [ "btn1:1.r", "uno:2", "green", [ "h192", "v115.4" ] ],
+    [ "led1:C", "uno:GND.1", "black", [ "v0" ] ],
+    [ "btn1:2.r", "uno:GND.1", "black", [ "v38.6", "h95.8", "v86.4" ] ]
+  ],
+  "dependencies": {}
+}
