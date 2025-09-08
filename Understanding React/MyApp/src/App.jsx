@@ -4,7 +4,8 @@ import Counter from "./counter";
 function App() {
     return (
         <div>
-            <Counter />
+            {/* Pass step prop to Counter to demonstrate object destructuring */}
+            <Counter step={1} />
         </div>
     );
 }
