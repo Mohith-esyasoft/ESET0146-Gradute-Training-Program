@@ -1,6 +1,9 @@
 
 ## Question
 
-Find the area of a rectangle.
+Check if quadrilateral is square or not
+
+### Sample Output
+
 
 
