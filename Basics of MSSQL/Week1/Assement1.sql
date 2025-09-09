@@ -37,7 +37,7 @@ INSERT INTO SmartMeterReadings (MeterId, CustomerId, Location, InstalledDate, Re
 select * from Customers
 select * from SmartMeterReadings
 
---task1
+--task
 
 UPDATE SmartMeterReadings
 SET
@@ -68,9 +68,9 @@ WHERE
 
     SELECT COUNT(*) FROM SmartMeterReadings;
 
+
     SELECT CustomerID, AVG(EnergyConsumed) AS AvgEnergyConsumed, MAX(EnergyConsumed) AS MaxEnergyConsumed
 FROM SmartMeterReadings
--- WHERE YEAR(ReadingDateTime) = YEAR(GETDATE()) -- Temporarily comment out or remove this line
 GROUP BY CustomerID
 ORDER BY CustomerID;
 
