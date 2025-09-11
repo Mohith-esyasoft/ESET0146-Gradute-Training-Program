@@ -1,4 +1,4 @@
-ddcreate database users;
+dddcreate database users;
 
 use users;
 drop table users;
