@@ -1,5 +1,5 @@
 #include "hal/hal_gpio.h"
-#include "../config/led_config.h"
+#include "../config/pin_config.h"
 #include <util/delay.h>
 
 int main(void) {
