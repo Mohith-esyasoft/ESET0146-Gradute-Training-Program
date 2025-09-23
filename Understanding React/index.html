@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> My Portfolio </title>
+    </head>
+
+    <body>
+        <H1 style="color: darkblue; text-decoration: underline;">Shruti Singhania</H1>
+        <H1 id="second">Software Development Engineer</H1>
+        <p>Hi, Shruti. I am a Software Engineer.</p>
+        <a href="about.html" style="text-decoration: none; color:brown;">Click here to know more about me!</a>
+        <button onclick="user()">Click Me!</button>
+        <script>
+            function user(){
+                const name = prompt("Enter your Name:");
+                console.log("Hello, " +name+"!");
+                document.querySelector("p").textContent = document.querySelector("p").textContent.replace("Shruti", name);
+                document.querySelector("p").style.color="red";
+                document.getElementById("second").style.color="blue";
+            }
+        </script>
+    </body>
+
+</html>
