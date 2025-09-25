@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "MVC_Demo.Controllers.APIController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/API",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MVC_Demo.Controllers.APIController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/API/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
